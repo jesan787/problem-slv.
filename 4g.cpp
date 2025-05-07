@@ -32,7 +32,7 @@
         {
             if( s[i]==',')
             cout<<" ";
-            if( islower(s[i])){
+           else if( islower(s[i])){
                s[i]=toupper(s[i]);
             cout<<s[i];//toupper(s[i]);
             }
